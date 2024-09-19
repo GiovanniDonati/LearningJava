@@ -1,4 +1,4 @@
-package main.java.list.operacoesBasicas;
+package main.java.list.operacaoBasicas;
 
 public class Produtos {
     private String nome;
@@ -11,7 +11,7 @@ public class Produtos {
         this.quantidade = quantidade;
     }
 
-    public int getPreco() {
+    public double getPreco() {
         return preco;
     }
 

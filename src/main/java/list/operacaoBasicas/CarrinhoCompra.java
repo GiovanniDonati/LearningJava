@@ -1,4 +1,4 @@
-package main.java.list.operacoesBasicas;
+package main.java.list.operacaoBasicas;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ public class CarrinhoCompra {
         this.produtosList = new ArrayList<>();
     }
 
-    public void adicionarItens(String nome, double preco, int qunatidade) {
+    public void adicionarItens(String nome, double preco, int quantidade) {
         produtosList.add(new Produtos(nome, preco, quantidade));
     }
 
@@ -32,8 +32,8 @@ public class CarrinhoCompra {
 
     public static void main(String[] args) {
         CarrinhoCompra listaProdutos = new CarrinhoCompra();
-        listaProdutos.adicionarProdutos("Coca-Cola", 10, 1);
-        listaProdutos.adicionarProdutos("Hamburguer", 15, 2);
+        listaProdutos.adicionarItens("Coca-Cola", 10, 1);
+        listaProdutos.adicionarItens("Hamburguer", 15, 2);
         listaProdutos.exibirItens();
         listaProdutos.calcularValorTotal();
 

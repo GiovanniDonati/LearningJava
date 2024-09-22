@@ -30,7 +30,7 @@ public class OrdenacaoPessoas {
     public static void main(String[] args) {
         OrdenacaoPessoas ordenarpessoas = new OrdenacaoPessoas();
         ordenarpessoas.adicionarPessoa("Giovanni", 25, 1.76);
-        ordenarpessoas.adicionarPessoa("Kemili", 20, 1.54);
+        ordenarpessoas.adicionarPessoa("Kemili", 21, 1.60);
         ordenarpessoas.adicionarPessoa("Malia", 1, 0.51);
 
         System.out.println(ordenarpessoas.ordenarPorIdade());

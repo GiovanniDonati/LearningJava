@@ -15,4 +15,9 @@ public class Numeros implements Comparable<Numeros> {
     public int compareTo(Numeros n) {
         return Integer.compare(this.numero, n.getNumero());
     }
+
+    @Override
+    public String toString() {
+        return "Número: " + numero;
+    }
 }

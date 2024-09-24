@@ -10,5 +10,10 @@ public class TiposDados {
 
         // Tipo não primitivo
         String nome = "João";        // Tipo String (cadeia de caracteres)
+        int[] numeros;
+        numeros = new int[5];
+        numeros[0] = 10;
+        numeros[1] = 20;
+        System.out.println(numeros);
     }
 }

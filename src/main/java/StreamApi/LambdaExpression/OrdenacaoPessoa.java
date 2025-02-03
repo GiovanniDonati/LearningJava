@@ -1,21 +1,19 @@
 //package main.java.StreamApi.LambdaExpression;
 //
 //import java.util.ArrayList;
-//import java.util.Comparator;
 //import java.util.List;
-//import main.java.collections.list.Ordenacao.Pessoa;
 //
 //public class OrdenacaoPessoa {
-//    private List<Pessoa> pessoaList;
+//    private List<OrdenacaoPessoa> pessoaList;
 //
-//    public ordenacaoPessoa(){
+//    public void ordenacaoPessoa(){
 //        this.pessoaList = new ArrayList<>();
 //    }
 //
 //    public List<OrdenacaoPessoa> ordenacaoPorAltura(){
 //        if(!pessoaList.isEmpty()){
 //            List<OrdenacaoPessoa>pessoasPorAltura = new ArrayList<>(pessoaList);
-//            pessoasPorAltura.sort(Comparator.comparingDouble(OrdenacaoPessoa::getAltura));
+//            pessoasPorAltura.sort((p1,p2) -> Double.compare(p1.getAltura(), p2.getAltura()));
 //            return pessoasPorAltura;
 //        } else {
 //            throw new RuntimeException("A lista está vazia!");
